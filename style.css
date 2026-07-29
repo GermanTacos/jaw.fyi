@@ -68,6 +68,20 @@ header h2 {
 	font-weight: regular;
 	text-align: left;
 }
+header h2 a { /* For subpage back button */
+	margin: 0;
+	padding: 0;
+	color: #E5B75B; /* Change the navigation link text color */
+	font-weight: 400;
+	text-align: right;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+header h2 a:hover,
+header h2 a:focus {
+	color: #E0CCA8; /* Change the navigation link text color on hover and focus */
+	transition: .5s color ease;
+}
 /****************************
  *
  * Main
