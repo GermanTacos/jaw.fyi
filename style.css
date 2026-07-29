@@ -68,7 +68,7 @@ header h2 {
 	font-weight: regular;
 	text-align: left;
 }
-header h2 a { /* For subpage back button */
+header h2 a {
 	margin: 0;
 	padding: 0;
 	color: #E5B75B; /* Change the navigation link text color */
