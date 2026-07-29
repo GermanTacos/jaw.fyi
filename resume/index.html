@@ -16,16 +16,14 @@
         <section>
             <header>
                 <h1>jacob a. ward</h1>
-                <h2><a href="https://jaw.fyi/files/resume.pdf">download</a></h2>
+                <h2><a href="../files/resume.pdf">download</a></h2>
             </header>
             <main>
                 <nav>
-                    <iframe
-					  src="https://jaw.fyi/files/resume.pdf#toolbar=0"
-					  width="100%"
-					  height="650px"
-					  frameborder="0">
-					</iframe>
+                    <iframe id="resumeFrame" src="../files/resume.pdf" style="width: 100%; height: 650px; border: none;"></iframe>
+					<script>
+					  let resumeFrame.style.height =  resumeFrame.contentWindow.document.body.scrollHeight + 'px'
+					</script>
                 </nav>
             </main>
 			<footer>
