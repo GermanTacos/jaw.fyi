@@ -42,6 +42,7 @@ section {
  *
  ****************************/
 header {
+	display: inline-flex;
 	position: relative;
 	margin-top: 25px;
 	margin-left: auto;
@@ -81,6 +82,13 @@ header h2 a:hover,
 header h2 a:focus {
 	color: #E0CCA8; /* Change the navigation link text color on hover and focus */
 	transition: .5s color ease;
+}
+header img {
+	flex: none;
+	width: 8em;
+	height: 8em;
+	object-fit: cover;
+	margin-right: 10px;
 }
 /****************************
  *
